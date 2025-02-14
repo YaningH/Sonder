@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(147, 153, 120);
+    color: #000000;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2.5fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    }
+
+.title { 
+    font-size: 15rem; 
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+}
+
+.section {
+    text-align: right;
+}
+
+.side {
+    font-size: 3rem; 
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
+    margin: 0;
+    text-align: right;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    width: 80%;
+}

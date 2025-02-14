@@ -1,0 +1,25 @@
+/* General Page Setup */
+
+
+/* Custom Cursor */
+.custom-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s linear;
+}
+
+/* Cursor Text Pop-up */
+.cursor-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(147, 153, 120);
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 2s ease-out, transform 3s ease-out;
+}
